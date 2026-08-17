@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  /*font-family: Arial, sans-serif;*/
+  background-color: #EEF2F6;
+  /*color: black(165, 179, 89);
+   line-height: 1.6;*/
+}
+
+/* Header */
+header {
+  background-color: rgb(3, 32, 55);
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(0, 166, 255);
+  font-size: 37px;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-style: normal;
+  color: rgb(193, 198, 209);
+  padding: 10px 0;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: #353B4C;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  color: rgb(96, 181, 255);
+}
+
+
+
+
+main {
+  margin: 50px auto;
+  /* background-color: white;*/
+  max-width: 1000px;
+
+
+}
+
+#about,
+#project,
+#intro {
+  padding: 30px;
+  border-radius: 20px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+#about h2,
+#project h2,
+#intro h2 {
+  font-size: 25px;
+  color: black;
+  margin-bottom: 30px;
+  font-weight: 600;
+  padding-left: 15px;
+  border-left: 5px solid rgb(63, 120, 219);
+  text-align: left;
+
+}
+
+#about figure {
+  text-align: center;
+  padding: 20px 0;
+
+}
+
+
+#about figure img {
+  border-radius: 50%;
+  border: 4px solid rgb(21, 129, 216);
+  margin: 10px 0;
+  transition: all 1s;
+}
+
+#about figure img:hover {
+  transition: all 1s;
+
+}
+
+
+#about figure figcaption {
+  color: #647488;
+  font-style: italic;
+  font-size: 14px;
+}
+
+#about p {
+  border-radius: 16px;
+  background-color: #F8FAFC;
+  padding: 20px;
+  border: 1px solid #dcdce6;
+  font-size: 16px;
+  color: #6d7a90;
+
+}
+
+.project-container {
+  display: flex;
+  gap: 20px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+
+}
+
+.project-container article {
+  flex: 1 1 450px;
+  background-color: #F8FAFC;
+  border-radius: 16px;
+  Padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #E2E8F0;
+  color: #10162A;
+  transition: 0.3s;
+
+
+}
+
+.project-container article:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0, 0.35);
+  transition:all 1s;
+}
+
+.project-container article p {
+  font-size: 14px;
+  color: #647488;
+  margin: 15px 0;
+}
+
+.project-container article button {
+  border-radius: 5px;
+  background-color: #38BDF8;
+  padding: 10px 20px;
+  font-size: white;
+  text-decoration: none;
+}
+
+.project-container button {
+  width: fit-content;
+  background: #0d8de8;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.project-container button:hover {
+  background: #0976c2;
+}
+
+#skill-box {
+  background-color: #F1F5F9;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#skill-box ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+#skill-box ul li {
+  background-color: #E0F2FE;
+  border-radius: 30px;
+  border: 1px solid #BAE6FD;
+  padding: 7px 10px;
+  color: #0369A1;
+  font-weight: 600;
+}
+
+
+
+#intro {
+  text-align: center;
+}
+
+#intro h2 {
+  text-align: left;
+}
+
+#intro video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 40px;
+  margin: 20px 0;
+  object-fit: cover;
+  border: 3px solid #CBD5E1;
+
+}
+
+footer {
+  margin: 50px auto;
+  max-width: 900px;
+  background-color: #141D30;
+  padding: 30px 30px 0;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+footer h2 {
+  border-left: 5px solid #0284C7;
+  padding-left: 10px;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px
+}
+
+footer p {
+  color: white;
+  padding: 6px 0
+}
+
+
+footer p a {
+  text-decoration: none;
+  color: #0284C7;
+
+
+}
+
+footer p a:hover {
+  text-decoration: underline;
+  color: #38BDF8;
+
+}
+
+form label {
+  display: block;
+  margin: 10px 0;
+  color: #b8c2cd;
+  font-weight: 500;
+}
+
+
+form {
+  max-width: 500;
+}
+
+form input [type="text"] form input [type="email"] textarea {
+  width: 200;
+  background-color: #648bcb;
+  outline: none;
+  border: 1px solid #475569;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  margin: 7px 0;
+
+}
+
+form button {
+  border-radius: 5px;
+  background-color: #1E2838;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  outline: none;
+  border: none;
+  margin: 10px 0;
+
+}
+
+#lower-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgb(128, 128, 128, 0.348);
+  padding: 20px 0;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
